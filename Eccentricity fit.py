@@ -200,7 +200,7 @@ def polynomial_part(part, ecc):
 # In[13]:
 
 
-#Functions to display uneven number of subplots (these two are not mine!)
+#Functions to display uneven number of subplots (these two functions are not mine!)
 def choose_subplot_dimensions(k):
     if k < 4:
         return k, 1
