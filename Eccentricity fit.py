@@ -335,5 +335,3 @@ plt.title('Logistic regression');
 plt.xlabel('Participants');
 plt.ylabel('R^2 values');
 
-
-# In[ ]:
