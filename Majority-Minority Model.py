@@ -547,6 +547,3 @@ plt.title('Average number of steps till consensus per node value');
 
 # In[ ]:
 
-
-
-
