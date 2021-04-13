@@ -12,6 +12,7 @@ Some of the cleaned code from the internships in Labs
 4. Probability of rewiring
 5. Probability of a change in the value of a node 
 6. Vote update methods - synchronous and asynchronous (are all nodes updates at the same time or sequentially?)
+
 Checking the frequency and speed with which the network reaches a desicion or a stalemate was the main goal of the project.
 
 
