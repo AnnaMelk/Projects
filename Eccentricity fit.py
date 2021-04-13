@@ -200,38 +200,6 @@ def polynomial_part(part, ecc):
 # In[13]:
 
 
-#Functions to display uneven number of subplots (these two functions are not mine!)
-def choose_subplot_dimensions(k):
-    if k < 4:
-        return k, 1
-    elif k < 11:
-        return math.ceil(k/2), 2
-    else:
-        return math.ceil(k/3), 3
-
-
-def generate_subplots(k, row_wise=False):
-    nrow, ncol = choose_subplot_dimensions(k)
-    figure, axes = plt.subplots(nrow, ncol,
-                                sharex=True,
-                                sharey=False, 
-                                figsize=(15, 25))
-
-    if not isinstance(axes, np.ndarray):
-        return figure, [axes]
-    else:
-        axes = axes.flatten(order=('C' if row_wise else 'F'))
-
-        # Delete any unused axes from the figure, so that they don't show
-        for idx, ax in enumerate(axes[k:]):
-            figure.delaxes(ax)
-            idx_to_turn_on_ticks = idx + k - ncol if row_wise else idx + k - 1
-            for tk in axes[idx_to_turn_on_ticks].get_xticklabels():
-                tk.set_visible(True)
-
-        axes = axes[:k]
-        return figure, axes
-
 
 # In[14]:
 
