@@ -13,7 +13,7 @@ Some of the cleaned code from the internships in Labs
 3. Proportion of nodes with the same values 
 4. Probability of rewiring
 5. Probability of a change in the value of a node 
-6. Vote update methods - synchronous and asynchronous (are all nodes updates at the same time or sequentially?)
+6. Vote update methods - synchronous and asynchronous (whether all nodes updates at the same time or sequentially)
 
 
 
