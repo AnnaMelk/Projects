@@ -14,7 +14,3 @@ Some of the cleaned code from the internships in Labs
 4. Probability of rewiring
 5. Probability of a change in the value of a node 
 6. Vote update methods - synchronous and asynchronous (whether all nodes updates at the same time or sequentially)
-
-
-
- - Transformations_2D_3D.py - Transformations for 2D and 3D images I couldn't make work or were not available in torchvision.transforms
